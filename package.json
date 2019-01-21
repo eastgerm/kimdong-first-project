@@ -27,5 +27,8 @@
     "not ie <= 11",
     "not op_mini all"
   ],
-  "homepage": "http://eastgerm.github.io/kimdong-first-project"
+  "homepage": "http://eastgerm.github.io/kimdong-first-project",
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  }
 }

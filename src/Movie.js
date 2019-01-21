@@ -16,8 +16,8 @@ function Movie({title,image,genres,synopsis}){
                     </div>
                     <MovieSynopsis synopsis={synopsis}/>
                 </div>
-            </div>
-        )
+</div>
+)
 }
 
 function MoviePoster({image, alt}) {
@@ -28,7 +28,10 @@ function MoviePoster({image, alt}) {
 
 function MovieGenres({genres}) {
     return (
-        <span className={"Movie__Genres"}>{genres} </span>
+        <div className={"Movie__Genres"}>
+            {genres}
+            <p>말풍선</p>
+        </div>
     );
 }
 
